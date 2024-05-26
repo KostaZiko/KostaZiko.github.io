@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100,300');
+*{
+    text-decoration: none;
+}
+body{
+    background-color:  #f4f1de;
+}
+.active{
+    background-color: #0f162d;
+    border-radius: 20px;
+    color: white;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 17.5px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    padding-bottom:60px ;
+    font-size :larger;
+    font-family: 'Rubik', sans-serif;
+}
+.links li{
+    padding: 0 20px 0 20px;
+    list-style-type: none;
+    font-size: 23px;
+    color: #00171f;
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    column-gap: 30px;
+    padding: 50px;
+    border-radius: 45px;
+}
+h2{
+    margin-bottom: 10px;
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+h5{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    margin-top: 0px;
+    margin-bottom:20px ;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: lowercase;
+    gap: 5px;
+}
+.btn{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0f162d;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    transition : 538ms;
+    transform: translateY(0);
+}
+.btn:hover{
+
+    transition : 538ms;
+    padding: 10px 39px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #000000;
+    border: none;
+}
+.btn_2{
+    color: white;
+}
+.btn_2:hover{
+    color: black;
+}
+
+
+
+
+
+
+

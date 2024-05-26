@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакт</title>
+    <link rel="stylesheet" href="Style/Contact_Me.css">
+</head>
+<body>
+<div class="nav_bar">
+    <ul class="links">
+        <a href="index.html"><li>За мене</li></a>
+        <a href="Hobi.html"><li>Хоби</li></a>
+        <a href="Skills.html"><li>Вештини</li></a>
+        <a href="Contact.html"><li class="active" style="padding-bottom: 3px;color: white; ">Контакт</li></a>
+    </ul>
+</div>
+
+<div class="container">
+    <div class="wrapper">
+        <div class="contact" style="padding-top: 5px">
+            <h3>Контактирај ме</h3>
+
+            <form id="contact-form">
+                <p>
+                    <label>Име</label>
+                    <input type="text" name="name" id="name" required>
+                </p>
+
+                <p>
+                    <label>Презиме</label>
+                    <input type="text" name="surname" id="surname">
+                </p>
+
+                <p>
+                    <label>Е-маил адреса</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+
+                <p>
+                    <label>Телефонски број</label>
+                    <input type="text" name="phone" id="phone">
+                </p>
+
+                <p class="full">
+                    <label>Порака</label>
+                    <textarea name="message" rows="5" id="message"></textarea>
+                </p>
+
+                <p class="full">
+                    <button type="submit">Испрати</button>
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

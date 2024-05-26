@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100,300');
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #f4f1de;
+}
+.active{
+    background-color: #0f162d;
+    border-radius: 20px;
+    color: white;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    font-size :larger;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 60px;
+}
+.links li{
+    padding: 0 20px 0 20px;
+    list-style-type: none;
+    font-size: 23px;
+    color: #00171f;
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'Yantramanav', sans-serif;
+    padding: 1em;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.prvo {
+    flex-basis: 33.3%;
+
+}
+.vtoro{
+    flex-basis: 33.3%;
+}
+.treto{
+    flex-basis: 33.3%;
+}
+h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+p{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
